@@ -1,4 +1,0 @@
-app:
-  name: spring-properties-binder
-  response-timeout: 15
-  connection-timeout: 10

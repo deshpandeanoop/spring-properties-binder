@@ -14,11 +14,11 @@ public class SpringPropertiesBinderApplication {
 		SpringApplication.run(SpringPropertiesBinderApplication.class, args);
 	}
 
-//	@Bean
-//	@ConfigurationProperties(prefix = "svc")
-//	@Scope("prototype")
-//	public ServiceConfigurations serviceConfigurations() {
-//		return new ServiceConfigurations();
-//	}
+	@Bean
+	@ConfigurationProperties(prefix = "svc")
+	@Scope("prototype")
+	public ServiceConfigurations serviceConfigurations() {
+		return new ServiceConfigurations();
+	}
 
 }
