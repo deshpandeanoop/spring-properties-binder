@@ -1,13 +1,4 @@
-svc:
-  configurations:
-    - name: service-1
-      hostUri: https://abc.com
-      isHttpsEnabled: true
-      isAuthEnabled: true
-      owners: ["Anoop", "Santosh", "Dilip"]
-
-    - name: service-2
-      hostUri: https://abc.com
-      isHttpsEnabled: true
-      isAuthEnabled: true
-      owners: ["Anoop", "Santosh", "Dilip"]
+app:
+  name: spring-properties-binder
+  response-timeout: 15
+  connection-timeout: 10
